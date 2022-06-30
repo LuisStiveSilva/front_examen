@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Home />
+    <p class="credits">Databot 2022.</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './views/Home.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home,
   }
 }
 </script>
@@ -22,7 +22,19 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0; 
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+.credits {
+  font-size: 12px;
+  color: #b2b2b2;
+  text-align: center;
+  margin: 2rem;
 }
 </style>
