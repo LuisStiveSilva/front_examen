@@ -3,7 +3,7 @@
     <div class="header"></div>
     <p class="rocket">🚀</p>
     <h1>Test Front-End Databot</h1>
-    <h3 class="text-center">Víncula la API de la Nasa 👇</h3>
+    <h3 class="text-center">Víncula la API de la NASA 👇</h3>
     <div class="container">
       <div class="info_box">
         <p class="text-center">Oculta este contenedor y reemplaza con tus tarjetas aquí.</p>
