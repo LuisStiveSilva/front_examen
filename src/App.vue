@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Home />
-    <p class="credits">Databot 2022.</p>
+    <p class="credits">
+      Databot 2022.
+    </p>
   </div>
 </template>
 
